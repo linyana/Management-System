@@ -1,6 +1,6 @@
 <template>
-    <div id="data_base">
-        
+    <div id="data_view">
+        <h1 style="text-align: center;">hello</h1>
     </div>
 </template>
 

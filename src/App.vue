@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <LeftNav/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,8 +11,8 @@ import LeftNav from './components/LeftNav.vue'
 export default {
   name: 'App',
   components: {
-  LeftNav
-  }
+    LeftNav
+  },
 }
 </script>
 
