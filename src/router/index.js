@@ -8,7 +8,8 @@ export default new VueRouter({
             path: '/index',
             component: DataView
         }
-    ]
+    ],
+ 
 })
 
 //捕获路由转发的错误

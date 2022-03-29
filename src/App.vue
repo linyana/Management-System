@@ -13,6 +13,16 @@ export default {
   components: {
     LeftNav
   },
+  methods: {
+    // 默认跳转index页面
+    index(){
+      this.$router.push('/index');
+      this.$router.forward();
+    }
+  },
+  mounted() {
+    this.index();
+  }
 }
 </script>
 
